@@ -1,0 +1,74 @@
+/* Styling for headings */
+h1, h2 {
+    color: black;
+    font-family: cursive;
+}
+
+/* Styling for the form container */
+#form {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Styling for the form elements */
+#form input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#form button {
+    font-family: cursive;
+    font-size: large;
+    background-color: azure;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+/* Styling for the body */
+body {
+    background-color: beige;
+}
+
+/* Styling for the table and table elements */
+table {
+    width: 60%;
+    margin: 100px auto 0 auto;
+    margin-top:0px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: black;
+}
+
+th {
+    background-color: lightgray;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    table {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    #form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form input, #form button {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
