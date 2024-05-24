@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./crud.js"></script>
+</head>
+
+<body>
+    <script>getData()</script>
+    <h1 style="text-align: center;">STUDENTS CRUD OPERATIONS PAGE</h1>
+    <div id="form">
+        <form action="">
+            <input type="text" placeholder="ID" id="id">
+            <input type="text" placeholder="NAME" id="name">
+            <input type="text" placeholder="BRANCH" id="branch">
+            <input type="text" placeholder="EMAIL" id="email">
+            <button type="submit" onclick="addData()">Add Student</button>
+        </form>
+    </div>
+    <h2 style="text-align: center;">Details Of Students</h2>
+    <table style="table-layout: fixed;">
+        <thead>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>BRANCH</th>
+            <th>EMAIL</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    
+</body>
+
+</html>

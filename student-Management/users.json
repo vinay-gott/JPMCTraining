@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Vinay",
+      "branch": "CSE",
+      "email": "vinay@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Vicky",
+      "branch": "ECE",
+      "email": "vicky@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Varun",
+      "branch": "EEE",
+      "email": "varun@gmail.com"
+    }
+  ]
+}
